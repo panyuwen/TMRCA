@@ -1,4 +1,4 @@
-**TMRCA**     
+## TMRCA     
 
 For calculation of within-population TMRCA & cross-population divergence time, requiring phased VCF as input. Missing genotype (i.e., ".|.") is acceptable.     
 
@@ -8,7 +8,7 @@ If you use the **TMRCA** in your research work, please cite at least one of the 
 
      
      
-**Examples:**
+### Examples:     
 
 ``` bash
 ./TMRCA -h
@@ -19,7 +19,7 @@ If you use the **TMRCA** in your research work, please cite at least one of the 
 ```
      
      
-**Inputs:**
+### Inputs:     
 
 **`required`**
 
@@ -43,7 +43,7 @@ If you use the **TMRCA** in your research work, please cite at least one of the 
 
 
      
-**Notes:**
+### Notes:     
 
 This program is compiled in centos7, older systems may not be supported. 
 
