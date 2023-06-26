@@ -6,18 +6,19 @@ If you use the **TMRCA** in your research work, please cite at least one of the 
 
 - [Lineage-specific positive selection on *ACE2* contributes to the genetic susceptibility of COVID-19](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwac118/6623880) (*National Science Review*, 2022)
 
-
-
-**Simple run:**
+     
+     
+**Examples:**
 
 ``` bash
-$ ./TMRCA -h
+./TMRCA -h
 ```
 
 ``` bash
-$ ./TMRCA --gzvcf input.vcf.gz --region region.txt --ape Human_panTro5.chr@.diff.txt.gz
+./TMRCA --gzvcf input.vcf.gz --region region.txt --ape Human_panTro5.chr@.diff.txt.gz
 ```
-
+     
+     
 **Inputs:**
 
 **`required`**
@@ -40,6 +41,8 @@ $ ./TMRCA --gzvcf input.vcf.gz --region region.txt --ape Human_panTro5.chr@.diff
 
 **--out**: output file prefix. **default**: out .     
 
+
+     
 **Notes:**
 
 This program is compiled in centos7, older systems may not be supported. 
