@@ -1,4 +1,4 @@
-## TMRCA     
+**TMRCA**  (by Yuwen Pan)         
 
 For calculation of within-population TMRCA & cross-population divergence time, requiring phased VCF as input. Missing genotype (i.e., ".|.") is acceptable.     
 
